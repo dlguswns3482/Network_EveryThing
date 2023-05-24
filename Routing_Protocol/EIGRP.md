@@ -50,8 +50,8 @@
 
 - EIGRP가 최적의 경로를 계산할 때 사용하는 알고리즘.
 
-1. FD (Feasible Distance) - 출발지 라우터 에서 목적지 네트워크까지 계산한 EIGRP Metric 값         (최적 Metric)
-2. AD (Advertised Distance) - 출발지 Next-hop 라우터에서 목적지 네트워크까지 계산한 EIGRP Metric 값 (RD라고도 함)
+1. FD (Feasible Distance) - 출발지 라우터 에서 목적지 네트워크까지 계산한 EIGRP Metric 값       (최적 Metric)
+2. AD (Advertised Distance) - 출발지 Next-hop 라우터에서 목적지 네트워크까지 계산한 EIGRP Metric 값 (RD라고도 한다.)
 3. Succesor - FD값이 가장 낮은 경로상의 Next-hop 라우터 (즉, 최적 경로상의 Next-hop 라우터가 됨)
 4. Fesable Succesor - 최적 경로(Successor)가 동작하지 못할 때 Query 또는 계산 없이 바로 Routing table에 등록되는 경로 (후속 경로상의 next-hop 라우터)
 
